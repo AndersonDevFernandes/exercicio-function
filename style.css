@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn-toggle{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 3rem;
+  height: 1.5rem;
+  
+}
+
+.calculator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  border: 1.5rem #fff solid;
+
+}
+
+
+.display{
+  width: 23rem;
+  height: 5rem;
+  margin: 1.5rem;
+  border: 0.1rem #fff solid;
+  background-color:transparent;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.9rem;
+
+}
+
+
+.btn-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn-toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 3rem;
+  background-color:transparent;
+  color: #000000;
+  border: #fff;
+  cursor: pointer;
+  padding: 2rem;
+
+}
+
+.btn-toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: transparent;
+  border: #fff 0.1rem solid;
+  padding: 2rem;
+  width: 3rem;
+}
+
+.btn-toggle:hover{
+  color: #000000;
+  background-color: #fff;
+  transition: 0.7s;
+}
+
+.btn{
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: #fff 0.1rem solid;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.btn:hover{
+  color: #000000;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+
+.dark-mode{
+  background-color: #fff;
+  .display{
+    background-color: #fff;
+    color: #000000;
+    border:0.1rem solid #000000;
+    
+  }
+
+  .btn:hover{
+    color: #fff;
+    background-color: #000000;
+    transition: 0.3s;
+  }
+    
+  
+  .btn{
+    background-color: #fff;
+    color: #000000;
+    border:0.1rem solid #000000;
+   
+  }
+  
+  .calculator{
+    background-color: #fff;
+    border: #000000;
+  }
+
+  .btn-toggle{
+    background-color: #fff;
+    color: #000000;
+    border:0.1rem solid #000000;
+  }
+
+  .btn-toggle:hover{
+    color: #fff;
+    background-color: #000000;
+    transition: 0.3s;
+  }
+
+}
